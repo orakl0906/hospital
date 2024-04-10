@@ -16,7 +16,7 @@ Table des matières
 Le système de gestion hospitalière est une application web destinée à automatiser divers aspects de la gestion quotidienne des hôpitaux, des cliniques et d'autres établissements de santé. Il vise à améliorer l'efficacité opérationnelle, à optimiser l'utilisation des ressources et à améliorer les soins aux patients.
 
 * Fonctionnalités
-* 
+
 Gestion des patients : Enregistrement des patients, suivi des dossiers médicaux, affectation de lits, etc.
 Gestion du personnel : Gestion des médecins, infirmières, personnel administratif, etc.
 Gestion des rendez-vous : Planification des rendez-vous médicaux, rappels automatiques, etc.
