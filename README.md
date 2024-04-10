@@ -1,14 +1,49 @@
-Une plateforme qui permet la gestions des rendezvous dans un hopital. Le system permet au patient de prendre rendezvous avec les medecins en ligne, pour annihiler les files d'attente a l'hopital. Les medecin aurrons access au donnees des patients, et pourrons faire des mis a jour concernant l'etat de sante des patients.
+Système de Gestion Hospitalière
+Bienvenue dans le système de gestion hospitalière, un projet open source conçu pour aider les établissements de santé à gérer efficacement leurs opérations et leurs ressources.
 
-# chatForum - Gestion Hopital
- Un chatForum qui permettra des conversations entre les utilisateurs du système de gestion hospitalière en cours de développement. Les patients pourront poster leurs problèmes et recevoir des réponses de professionnels de la santé. Les patients pourront également partager leurs expériences via le forum. Ce module sera ajouté au projet original qui se trouve sur github ici : "https://github.com/Kiengo12/projetGL.git"  Traduit avec www.DeepL.com/Translator (version gratuite)
+Table des matières
 
-Procédure de déploiement :
-Télécharger le code complet dans un fichier zip sur votre PC. 
-Faites extraire ce fichier rar dans un autre fichier de votre PC, puis lancer la commande prompte. 
-Ensuite, faite “cd” vers le fichier contenant le code, et lancer le serveur Laravel, en saisissant la commande “php artisan serve.”
-Copier l’adresse du serveur qui sera afficher sur votre fenêtre commande prompt, cet a dire le “http//127…” et coller cette adresse sur votre navigateur. Ce si vous donnera accès a notre interface.
-NB : attacher à ce document est un fichier SQL, qui contient la base de données construit a base de MySQL. Faites importez cette base de données dans votre serveur local ; XAMPP ou WAMPP.
-Lancer une autre fenêtre commande prompt, cd vers le projet GL, et saisissez la commande :
-“php artisan migrate”
-Ceci permettra la communication avec la base de données.
+Introduction
+Fonctionnalités
+Installation
+Utilisation
+Support
+
+
+* Introduction
+Le système de gestion hospitalière est une application web destinée à automatiser divers aspects de la gestion quotidienne des hôpitaux, des cliniques et d'autres établissements de santé. Il vise à améliorer l'efficacité opérationnelle, à optimiser l'utilisation des ressources et à améliorer les soins aux patients.
+
+* Fonctionnalités
+Gestion des patients : Enregistrement des patients, suivi des dossiers médicaux, affectation de lits, etc.
+Gestion du personnel : Gestion des médecins, infirmières, personnel administratif, etc.
+Gestion des rendez-vous : Planification des rendez-vous médicaux, rappels automatiques, etc.
+Gestion des ressources : Gestion des stocks de médicaments, équipements médicaux, etc.
+Rapports et analyses : Génération de rapports sur les performances, les données démographiques des patients, etc.
+
+* Installation
+Pour installer le système de gestion hospitalière, suivez les étapes suivantes :
+
+Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
+git clone https://github.com/orakl0906/hospital.git
+
+Accédez au répertoire du projet :
+cd hospital
+
+Installez les dépendances en exécutant la commande suivante :
+npm install
+
+Configurez les variables d'environnement nécessaires, telles que les clés d'API, les informations de base de données, etc.
+
+Lancez l'application en utilisant la commande suivante :
+npm start
+
+Accédez à l'application dans votre navigateur en utilisant l'URL suivante :
+http://localhost:3000
+
+* Utilisation
+Une fois l'application installée et configurée, vous pouvez commencer à l'utiliser en accédant à l'interface utilisateur dans votre navigateur. Suivez les instructions fournies dans l'application pour gérer les patients, le personnel, les rendez-vous, les ressources, etc.
+
+* Support
+Pour obtenir de l'aide ou signaler des problèmes, veuillez créer une issue dans ce dépôt GitHub ou contacter [mamlanrodrigue@gmail.com].
+
+N'hésitez pas à personnaliser ce README en fonction des besoins spécifiques de votre projet de gestion hospitalière. Vous pouvez ajouter des sections supplémentaires, des exemples d'utilisation, des captures d'écran, etc.
